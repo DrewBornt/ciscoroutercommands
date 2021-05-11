@@ -13,3 +13,15 @@ http 192.168.1.0 255.255.255.0 inside
 
 username ciscoadmin password password #sets the user to 'ciscoadmin' and their password to 'password', adjust as necessary
 
+show interfaces switchport
+show interfaces switchport module #
+
+configure terminal
+
+interface Gi#/#/##
+
+switchport trunk native vlan #
+switchport trunk allowed vlan #
+switchport trunk allowed vlan #
+
+interface Gi#/#/##
